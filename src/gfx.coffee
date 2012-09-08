@@ -3,6 +3,7 @@ $ = jQuery = require('jqueryify')
 throw 'jQuery required' unless $
 
 $.support.transition or= do ->
+  if not Image? then return no
   style = (new Image).style
   'transition' of style or
    'webkitTransition' of style or
