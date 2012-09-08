@@ -1,20 +1,20 @@
-{ 
+{
   "name": "gfx", 
   "description": "3D CSS3 animation library for jQuery", 
   "version": "0.0.4", 
   "author": "maccman", 
   "licenses":
-    [{ 
+    [{
       "type": "MIT", 
       "url": "https://github.com/maccman/gfx/blob/master/LICENSE"
-    }], 
-  "repository": { 
-    "type" : "git", 
+    }],
+  "repository": {
+    "type" : "git",
     "url": "http://github.com/maccman/gfx.git"
-  }, 
-  "engine" : [ "*" ], 
+  },
+  "engine" : [ "*" ],
   "main" : "./index.js",
-  "dependencies": { 
-    "jqueryify": "~0.0.1"
+  "dependencies": {
+    "jqueryify": "git://github.com/shanejonas/jqueryify.git#master"
   }
 }

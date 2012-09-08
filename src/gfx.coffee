@@ -1,4 +1,4 @@
-$ = jQuery ? require('jqueryify')
+$ = jQuery = require('jqueryify')
 
 throw 'jQuery required' unless $
 
@@ -84,3 +84,7 @@ $.fn.gfx = (properties, options) ->
 
     # Sometimes the event doesn't fire, so we have to fire it manually
     $(@).emulateTransitionEnd(opts.duration + 50)
+
+
+#expose gfx effects
+require('./gfx.effects')

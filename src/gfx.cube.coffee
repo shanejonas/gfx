@@ -1,4 +1,4 @@
-$ = jQuery
+$ = require('jqueryify')
 
 sides =
   front:  {rotateY: '0deg',    rotateX: '0deg'}

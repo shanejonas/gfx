@@ -1,4 +1,5 @@
 # Additional Effects
+$ = require('jqueryify')
 
 $.fn.gfxPopIn = (options = {}) ->
   options.scale ?= '.2'
