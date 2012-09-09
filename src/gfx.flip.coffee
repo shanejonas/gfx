@@ -1,4 +1,4 @@
-$ = jQuery
+$ = require('jquery')
 
 defaults =
   width: 120

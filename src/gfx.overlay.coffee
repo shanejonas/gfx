@@ -1,4 +1,5 @@
-$ = jQuery
+$ = require('jquery')
+
 
 isOpen = ->
   !!$('#gfxOverlay').length

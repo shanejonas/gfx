@@ -1,6 +1,8 @@
-$ = jQuery = require('jqueryify')
+$ = jQuery = require 'jquery'
 
 throw 'jQuery required' unless $
+
+$.support or= {}
 
 $.support.transition or= do ->
   if not Image? then return no
